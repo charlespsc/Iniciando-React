@@ -6,6 +6,4 @@ WORKDIR /home/node/react
 
 COPY . .
 
-RUN npm install 
-
-ENTRYPOINT [ "npm", "start" ]
+ENTRYPOINT [ ".docker/entrypoint.sh" ]
