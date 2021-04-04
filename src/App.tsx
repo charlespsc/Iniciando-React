@@ -8,7 +8,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Charles Pereira - Senai <br>
+          Charles Pereira - Senai - CTAI<br>
+          </br>Aplicação desenvolvida em TypeScript + Docker <br>
           </br>Edit <code>src/App.tsx</code> and save to reload.
         </p>
         <a
